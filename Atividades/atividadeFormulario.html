@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade Formulario</title>
+    </head>
+    <body>
+        <fieldset>
+            <div>
+                <fieldset id="cadastroGeral">
+                    <label>Cadastro Geral</label>
+                </fieldset><br>
+
+                <fieldset id="campoDadosPessoais">
+                    <fieldset>
+                        <label>DadosPessoais</label>
+                    </fieldset><br>
+                    <nav id="campoNomeCompleto">
+                        <form>
+                            <label for="nomeCompleto">Nome Completo:</label><br>
+                            <input type="text" id="nomeCompleto" name="nomeComleto"><br><br>
+                        </form>
+                    </nav>
+                    <nav id="campoCrofissao">
+                        <label>Profissão:</label><br>
+                        <select name="profissao" id="profissao">
+                            <option value="">Sua Profissão</option>
+                        </select>
+                    </nav>
+                </fieldset><br>
+
+                <fieldset id="campoLocalizacao">
+                    <fieldset>
+                        <label>Localização</label>
+                    </fieldset><br>
+                    <nav id="campoEmail">
+                        <form>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email"><br><br>
+                        </form>
+                    </nav>
+                    <nav id="campoRua">
+                        <form>
+                            <label for="rua">Rua:</label><br>
+                            <input type="text" id="rua" name="text"><br><br>
+                        </form>
+                    </nav>
+                </fieldset><br>
+
+                <fieldset id="campoFaixaEtaria">
+                    <fieldset>
+                        <label>Faixa Etária</label>
+                    </fieldset><br>
+                    <nav id="selecaoFaixaEtaria_L">
+
+                        <input type="radio" id="20anos" name="selecaoFaixaEtaria" value="20anos">
+                        <label for="20anos"> até 20 anos</label><br>
+
+                        <input type="radio" id="2030anos" name="selecaoFaixaEtaria" value="2030anos">
+                        <label for="2030anos"> mais que 20 até 30 anos</label><br>
+                            
+                        <input type="radio" id="3040anos" name="selecaoFaixaEtaria" value="3040anos">
+                        <label for="3040anos"> mais que 30 até 40 anos</label><br>
+
+                    </nav>
+                    <nav id="selecaoFaixaEtaria_R">
+
+                        <input type="radio" id="4050anos" name="selecaoFaixaEtaria" value="4050anos">
+                        <label for="4050anos"> mais que 40 até 50 anos</label><br>
+
+                        <input type="radio" id="5060anos" name="selecaoFaixaEtaria" value="5060anos">
+                        <label for="5060anos"> mais que 50 até 60 anos</label><br>
+
+                        <input type="radio" id="60anos" name="selecaoFaixaEtaria" value="60anos">
+                        <label for="60anos"> mais que 60 anos</label><br>
+
+                    </nav>
+                </fieldset><br>
+
+                <fieldset id="campoEsportesQuePratica">
+                    <fieldset>
+                        <label>Esportes que pratica</label>
+                    </fieldset><br>
+                    <nav>
+
+                        <input type="checkbox" id="futebolDeCampo" name="futebolDeCampo" value="futebolDeCampo">
+                        <label for="futebolDeCampo">Futebol de campo</label><br>
+                            
+                        <input type="checkbox" id="futebolDeSalao" name="futebolDeCampo" value="futebolDeSalao">
+                        <label for="futebolDeSalao">Futebol de salão</label><br>
+                            
+                        <input type="checkbox" id="futebolSociety" name="futebolSociety" value="futebolSociety">
+                        <label for="futebolSociety">Futebol society</label><br>
+                            
+                        <input type="checkbox" id="volleyDeQuadra" name="volleyDeQuadra" value="volleyDeQuadra">
+                        <label for="volleyDeQuadra">Volley de quadra</label><br>
+                            
+                        <input type="checkbox" id="volleyDePraia" name="volleyDePraia" value="volleyDePraia">
+                        <label for="volleyDePraia">Volley de praia</label><br>
+                            
+                        <input type="checkbox" id="natacaoEmPiscina" name="natacaoEmPiscina" value="natacaoEmPiscina">
+                        <label for="natacaoEmPiscina">Natação em piscina</label><br>
+                            
+                        <input type="checkbox" id="natacaoEmMarAberto" name="natacaoEmMarAberto" value="natacaoEmMarAberto">
+                        <label for="natacaoEmMarAberto">Natação em mar aberto</label><br>
+
+                    </nav>
+                </fieldset><br>
+
+                <fieldset id="campoComentario">
+                    <fieldset>
+                        <label>Comentário</label>
+                    </fieldset><br>
+                    <nav>
+                        <label for="areaMensagem">Mensagem:</label><br>
+                        <textarea id="areaMensagem" rows="15" cols="50"></textarea>
+                    </nav>
+                </fieldset>
+
+            </div>
+        </fieldset><br>
+        <nav>
+            <input type="button" id="enviar" value="Enviar">
+            <input type="button" id="limpar" value="limpar">
+        </nav>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: blue;
+  }
+
+.titulos {
+    text-align: center;
+}
